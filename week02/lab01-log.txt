@@ -1,0 +1,90 @@
+    1  which git
+    2  git --version
+    3  which gh
+    4  sudo apt install gh  
+    5  type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+    6  curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+    7  which gh
+    8  sudo app install gh 
+    9  sudo apt install gh
+   10  sudo apt update
+   11  sudo apt install gh -y
+   12  which gh
+   13  gh --version
+   14  git config --global user.name "agasthya196"
+   15  git config --global user.email "agasthya.b.ug26@plaksha.edu.in"
+   16  git config --global --list
+   17  cd ~/coding-cafe
+   18  ls
+   19  cd
+   20  ls
+   21  ld\s
+   22  ls
+   23  mkdir coding-cafe
+   24  cd coding-cafe/
+   25  mkdir week01
+   26  mkdir week02
+   27  touch README.md
+   28  touch week02/notes.md
+   29  ls -R
+   30  pwd
+   31  ls -a
+   32  ls -l
+   33  Get-Command python
+   34  echo $PATH
+   35  cd coding-cafe
+   36  cd ~
+   37  cd coding-cafe
+   38  source .venv/bin/activate
+   39  python3 -m venv .venv
+   40  cd ~/coding-cafe
+   41  pwd
+   42  ls -la
+   43  mkdir -p week01 week02
+   44  touch README.md week02/notes.md
+   45  ls -R
+   46  pwd
+   47  ls -a
+   48  ls -l
+   49  ls coding-cafe/week02 2>/dev/null || ls week02
+   50  cp README.md README-backup.md
+   51  mv README-backup.md week01/
+   52  cd week01
+   53  mv README-backup.md old-readme.md
+   54  ls
+   55  rm old-readme.md
+   56  cd ~/coding-cafe
+   57  echo $PATH
+   58  echo $PATH | tr ':' '\n'
+   59  which python3
+   60  which pip
+   61  pyton
+   62  sudo apt update && sudo apt install -y python3-venv python3-pip
+   63  which pip
+   64  rm -rf .venv
+   65  python3 -m venv .venv
+   66  source .venv/bin/activate
+   67  which python3
+   68  pip list
+   69  pip install requests
+   70  pip list
+   71  deactivate
+   72  which python3
+   73  man ls
+   74  python3
+   75  history > week02/lab01-log.txt
+   76  ls -l week02
+   77  sudo apt update && sudo apt install -y python3-venv python3-pip
+   78  rm -rf .venv
+   79  python3 -m venv .venv
+   80  source .venv/bin/activate
+   81  which python3
+   82  pip list
+   83  pip install requests
+   84  pip list
+   85  deactivate
+   86  which python3
+   87  cd ~/coding-cafe
+   88  explorer.exe .
+   89  cd ~/coding-cafe
+   90  history > week02/lab01-log.txt
